@@ -4,7 +4,7 @@
 
 <div id="about"> 
 
-## :page_facing_up: About
+## :computer: About
 ### Go Stack
 These projects was based on the Rocketseat course called "Go Stack" that you can find in this link: https://rocketseat.com.br/
 </div>
