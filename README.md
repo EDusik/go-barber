@@ -1,15 +1,11 @@
 <div align="center">
-    <img alt="Gostack Bootcamp" title="#GostackBootcamp" src="/images/bootcamp.png" width="250px" />
-</div>
-
-<div align="center">
-  <img alt="Gostack Technologies" src="/images/technologies.jpg" width="50%">
+  <img alt="Gostack Technologies" src="/images/technologies.jpg" width="60%">
 </div>
 
 <div id="about"> 
 
 ## :page_facing_up: About
-Go Stack
+### Go Stack
 These projects was based on the Rocketseat course called "Go Stack" that you can find in this link: https://rocketseat.com.br/
 </div>
 
