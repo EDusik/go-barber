@@ -10,7 +10,7 @@ yarn sequelize db:migrate
 yarn sequelize db:migrate: undo
 
 Post Bird
-09 - Model de usuário
+13 - JWT
 
 Controller
 index()
@@ -18,4 +18,10 @@ show()
 store()
 update()
 delete()
+
+
+
+docker ps -a
+docker stop database
+docker start database
 
