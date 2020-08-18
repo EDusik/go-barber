@@ -10,7 +10,7 @@ yarn sequelize db:migrate
 yarn sequelize db:migrate: undo
 
 Post Bird
-13 - JWT
+15 - Middleware de autenticação
 
 Controller
 index()
@@ -18,8 +18,6 @@ show()
 store()
 update()
 delete()
-
-
 
 docker ps -a
 docker stop database

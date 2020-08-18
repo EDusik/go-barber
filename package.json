@@ -3,6 +3,7 @@
     "sequelize-cli": "^5.5.1"
   },
   "dependencies": {
+    "jsonwebtoken": "^8.5.1",
     "sequelize": "^5.21.12"
   }
 }
