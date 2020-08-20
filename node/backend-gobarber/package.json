@@ -6,7 +6,8 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.2.1",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^6.3.4"
+    "sequelize": "^6.3.4",
+    "yup": "^0.29.3"
   },
   "devDependencies": {
     "eslint": "^7.2.0",

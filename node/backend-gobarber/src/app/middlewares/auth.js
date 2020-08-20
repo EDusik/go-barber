@@ -20,7 +20,7 @@ export default async (req, res, next) => {
     return next();
   } catch(err) {
     return res.status(401).json({
-      error: 'Token not provided'
+      error: 'Token invalid'
     });
   }
 };
