@@ -49,7 +49,7 @@ d46172f73575f3543f4e79088bcc8a965a43404bc0ba83c2243e1f2395272846
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk3Nzg4NDA1LCJleHAiOjE1OTgzOTMyMDV9.ckj_LhQHGhibq7XWjv1NY6qr1t6gSZN6gIbUEON-uY0
 
 ### Lesson
-06 - Validações de agendamento
+07 - Listando agendamentos do usuário
 
 </div>
 
