@@ -14,6 +14,7 @@ docker ps
 docker ps -a
 docker stop database
 docker start database
+docker run --name mongobarber -p 27017:27017 -d -t mongo
 ```
 
 ### Sequelize
@@ -45,11 +46,13 @@ delete()
 ##### Docker Token
 d46172f73575f3543f4e79088bcc8a965a43404bc0ba83c2243e1f2395272846
 
+f1e10230fb405569ae29e932e7b5da218b623096322ebfee2d155a46b755db41
+
 ##### User Token
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk3Nzg4NDA1LCJleHAiOjE1OTgzOTMyMDV9.ckj_LhQHGhibq7XWjv1NY6qr1t6gSZN6gIbUEON-uY0
 
 ### Lesson
-08 - Aplicando paginação
+10 - Configurando MongoDB
 
 </div>
 
