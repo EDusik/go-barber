@@ -71,6 +71,16 @@ class AppointmentController {
       });
     }
 
+
+    /**
+     * Checks if the user is scheduling an appointment with himself
+    */
+    if (provider_id === req.userId) {
+      return res.status(400).json({
+        error: 'User cannot scheduling an appointment with himself'
+      });
+    }
+
     /**
      * Check date availability
     */
