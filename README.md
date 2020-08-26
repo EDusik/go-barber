@@ -6,7 +6,7 @@
 
 ## :computer: About
 ### Go Stack
-These projects was based on the Rocketseat course called "Go Stack" that you can find in this link: https://rocketseat.com.br/
+These projects was based on the Rocketseat course called "GoStack 9.0" that you can find in this link: https://rocketseat.com.br/
 </div>
 
 <div id="tecnologies"> 
@@ -14,6 +14,9 @@ These projects was based on the Rocketseat course called "Go Stack" that you can
 ## :rocket: Technologies
 This project uses these technologies:
 - [Node.js](https://nodejs.org/en/)
+- [Docker](https://www.docker.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [MongoDB](https://www.mongodb.com/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 <!-- - [Expo](https://expo.io/) -->
