@@ -12,10 +12,17 @@ docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:
 ```docker
 docker ps
 docker ps -a
+docker logs
 docker stop database
 docker start database
 docker start mongobarber
 docker run --name mongobarber -p 27017:27017 -d -t mongo
+docker run --name redis -p 6379:6379 -d -t redis:alpine
+```
+
+### Queue
+```yarn
+yarn queue
 ```
 
 ### Sequelize

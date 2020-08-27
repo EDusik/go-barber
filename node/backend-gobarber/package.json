@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "bee-queue": "^1.2.3",
     "cli": "^1.0.1",
     "date-fns": "^2.0.0-beta.5",
     "express": "^4.17.1",
@@ -13,6 +14,7 @@
     "pg": "^8.2.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.4",
+    "sucrase": "^3.15.0",
     "yup": "^0.29.3"
   },
   "devDependencies": {
@@ -27,6 +29,7 @@
   },
   "scripts": {
     "dev": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js",
     "dev:debug": "nodemon --inspect src/server.js"
   }
 }
