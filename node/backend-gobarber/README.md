@@ -16,6 +16,7 @@ docker logs
 docker stop database
 docker start database
 docker start mongobarber
+docker start redis
 docker run --name mongobarber -p 27017:27017 -d -t mongo
 docker run --name redis -p 6379:6379 -d -t redis:alpine
 ```
@@ -60,7 +61,7 @@ f1e10230fb405569ae29e932e7b5da218b623096322ebfee2d155a46b755db41
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk3Nzg4NDA1LCJleHAiOjE1OTgzOTMyMDV9.ckj_LhQHGhibq7XWjv1NY6qr1t6gSZN6gIbUEON-uY0
 
 ### Lesson
-15 - Configurando Nodemailer
+18 - Monitorando falhas na fila
 
 </div>
 
