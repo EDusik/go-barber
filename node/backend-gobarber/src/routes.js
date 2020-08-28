@@ -3,6 +3,7 @@ import multer from 'multer';
 
 import AppointmentController from './app/controllers/AppointmentController';
 import authMiddleware from './app/middlewares/auth';
+import AvailableController from './app/controllers/AvailableController';
 import FileController from './app/controllers/FileController';
 import multerConfig from './config/multer';
 import NotificationController from './app/controllers/NotificationController';
@@ -33,5 +34,6 @@ routes.get('/notifications', NotificationController.index);
 routes.put('/notifications/:id', NotificationController.update);
 
 routes.get('/providers', ProviderController.index);
+routes.get('/providers/:providerId/available', AvailableController.index);
 
 export default routes;
