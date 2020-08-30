@@ -20,7 +20,7 @@ This project uses these technologies:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Mailtrap](https://mailtrap.io/inboxes/1037512/messages/1832923349)
-<!-- - [Expo](https://expo.io/) -->
+- [Sentry](https://sentry.io/)
 </div>
 
 <div id="directories">   
