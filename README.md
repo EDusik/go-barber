@@ -9,7 +9,7 @@
 These projects was based on the Rocketseat course called "GoStack 9.0" that you can find in this link: https://rocketseat.com.br/
 </div>
 
-<div id="tecnologies"> 
+<div id="technologies"> 
 
 ## :rocket: Technologies
 This project uses these technologies:
