@@ -39,7 +39,7 @@ yarn dev
 ```
 </div>
 
-<div id="anotations">
+<div id="annotations">
 
 ### :memo: Annotations
 
@@ -60,8 +60,4 @@ f1e10230fb405569ae29e932e7b5da218b623096322ebfee2d155a46b755db41
 ##### User Token
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTk3Nzg4NDA1LCJleHAiOjE1OTgzOTMyMDV9.ckj_LhQHGhibq7XWjv1NY6qr1t6gSZN6gIbUEON-uY0
 
-### Lesson
-22 - Variáveis ambiente
-
 </div>
-
