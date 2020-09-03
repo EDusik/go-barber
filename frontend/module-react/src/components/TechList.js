@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import TechItem from './TechItem';
 
 class TechList extends Component {
+
+    // staticDefaultProps = {
+    //     tech: 'Default'
+    // }
+
+    
+    // static propTypes = {
+    //     tech: 'Default'
+    // }
     
     state = {
         newTech: '',
@@ -40,14 +49,16 @@ class TechList extends Component {
                             key={tech}
                             onDelete={() => this.handleDelete(tech)}
                         />
+                     
                     ))}
+                    <TechItem />
                 </ul>
                 <input
                     type="text"
                     onChange={this.handleInputChange} 
                     value={this.state.newTech} 
                 />
-                <button type="submit">Enviar</button>
+                <button type="submit">Send</button>
             </form>
         );  
     }
