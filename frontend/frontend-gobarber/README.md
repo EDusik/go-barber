@@ -1,7 +1,7 @@
 <div id="commands">
 
 ### Lesson
-04 - Styled Components
+06 - Estilizando página Main
 
 </div>
 
