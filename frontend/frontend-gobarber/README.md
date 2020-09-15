@@ -1,6 +1,6 @@
 <div id="commands">
 
 ### Lesson
-08 - Listando repositórios
+10 - Navegação de rotas
 </div>
 
