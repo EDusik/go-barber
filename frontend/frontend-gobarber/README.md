@@ -1,6 +1,6 @@
 <div id="commands">
 
 ### Lesson
-11 - Carregando dados da API
+12 - Definindo PropTypes
 </div>
 
