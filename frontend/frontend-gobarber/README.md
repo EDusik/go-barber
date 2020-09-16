@@ -1,6 +1,6 @@
 <div id="commands">
 
 ### Lesson
-12 - Definindo PropTypes
+13 - Exibindo repositório
 </div>
 
