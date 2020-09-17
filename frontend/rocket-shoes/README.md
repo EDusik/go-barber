@@ -1,7 +1,7 @@
 <div id="about">
 
 ## :computer: About
-React project consuming GitHub api and using React Components and styled-components
+Virtual store using React flux architecture and hooks
 </div>
 
 <div id="commands">
