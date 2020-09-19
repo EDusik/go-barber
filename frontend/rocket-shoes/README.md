@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-08 - Configurando API
+09 - Buscando produtos da API
 </div>
