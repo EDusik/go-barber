@@ -17,5 +17,5 @@ npm start
 <div id="lesson">
 
 ### Lesson
-06 - Estilização da Home
+07 - Estilização do Carrinho
 </div>
