@@ -10,12 +10,12 @@ Virtual store using React flux architecture and hooks
 ```npm
 npm install
 npm start
+json-server server.json -p 3333
 ```
 </div>
-
 
 <div id="lesson">
 
 ### Lesson
-07 - Estilização do Carrinho
+08 - Configurando API
 </div>
