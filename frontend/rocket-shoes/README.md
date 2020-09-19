@@ -17,7 +17,5 @@ npm start
 <div id="lesson">
 
 ### Lesson
-```npm
-05 - Criando Header
-```
+06 - Estilização da Home
 </div>
