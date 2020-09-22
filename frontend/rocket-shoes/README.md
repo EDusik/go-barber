@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-11 - Adicionando ao carrinho
+12 - Reactotron + Redux
 </div>
