@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-13 - Listando no carrinho
+14 - Produto duplicado
 </div>
