@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-16 - Refatorando as actions
+17 - Alterando quantidade
 </div>

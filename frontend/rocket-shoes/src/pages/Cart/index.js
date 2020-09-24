@@ -7,10 +7,20 @@ import { bindActionCreators } from 'redux';
 import { Container, ProductTable, Total } from './styles';
 import * as CartActions from '../../store/modules/cart/actions';
 
-function Cart({ cart, removeFromCart }) {
-  return (
-      <Container>
-          <ProductTable>
+function Cart({ cart, removeFromCart, updateAmount }) {
+
+
+    function increment(product) {
+        updateAmount(product.id, product.amount + 1)
+    }
+
+    function decrement(product) {
+        updateAmount(product.id, product.amount - 1)
+    }
+
+    return (
+        <Container>
+            <ProductTable>
             <thead>
                 <tr>
                     <th />
@@ -32,11 +42,11 @@ function Cart({ cart, removeFromCart }) {
                         </td>
                         <td>
                             <div>
-                                <button type="button">
+                                <button type="button" onClick={() => decrement(product)}>
                                     <MdRemoveCircleOutline size={20} color="#7159C1" />
                                 </button>
                                 <input type="number" readOnly value={product.amount} />
-                                <button type="button">
+                                <button type="button" onClick={() => increment(product)}>
                                     <MdAddCircleOutline size={20} color="#7159C1" />
                                 </button>
                             </div>
@@ -52,7 +62,7 @@ function Cart({ cart, removeFromCart }) {
                     </tr>
                 ))}            
             </tbody>
-          </ProductTable>
+            </ProductTable>
             <footer>
                 <button type="button">
                     Finalizar pedido
@@ -62,8 +72,8 @@ function Cart({ cart, removeFromCart }) {
                     <strong>R$259,80</strong>
                 </Total>
             </footer>
-      </Container>
-  )
+        </Container>
+    )
 }
 
 const mapStateToProps = state => ({
