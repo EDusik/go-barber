@@ -7,10 +7,8 @@ import { formatPrice } from '../../util/format';
 
 import { Container, ProductTable, Total } from './styles';
 import * as CartActions from '../../store/modules/cart/actions';
-import produce from 'immer';
 
 function Cart({ cart, removeFromCart, updateAmount, total }) {
-
 
     function increment(product) {
         updateAmount(product.id, product.amount + 1)

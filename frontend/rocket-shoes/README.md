@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-17 - Alterando quantidade
+19 - Exibindo quantidades
 </div>
