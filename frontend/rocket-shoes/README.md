@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-20 - Configurando Redux Saga
+21 - Reactotron + Saga
 </div>
