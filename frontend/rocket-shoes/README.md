@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-23 - Estoque na adição
+24 - React Toastify
 </div>
