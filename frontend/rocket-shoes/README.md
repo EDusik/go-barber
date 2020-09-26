@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-21 - Reactotron + Saga
+22 - Separando actions
 </div>
