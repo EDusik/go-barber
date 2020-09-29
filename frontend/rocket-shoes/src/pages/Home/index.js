@@ -11,6 +11,7 @@ import api from '../../services/api';
 export default function Home() {
 
     const dispatch = useDispatch();
+    
     const [products, setProducts] = useState([]);
     const amount = useSelector(state => state.cart.reduce((sumAmount, product) => {
         sumAmount[product.id] = product.amount;
