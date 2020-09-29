@@ -17,5 +17,5 @@ json-server server.json -p 3333
 <div id="lesson">
 
 ### Lesson
-25 - Estoque na alteração
+06 - Convertendo classe
 </div>
