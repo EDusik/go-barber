@@ -8,14 +8,9 @@ Virtual store using React flux architecture and hooks
 
 ### :memo: How run
 ```npm
-npm install
-npm start
-json-server server.json -p 3333
+    npm install
+    npm start
+    json-server server.json -p 3333
 ```
 </div>
 
-<div id="lesson">
-
-### Lesson
-06 - Convertendo classe
-</div>
